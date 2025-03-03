@@ -26,7 +26,7 @@ const Slider = () => {
   const prevSlide = () => setCurrent((current - 1 + length) % length);
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto overflow-hidden rounded-lg">
+    <div className="relative w-full  mx-auto overflow-hidden rounded-lg">
       <div className="relative w-full h-[300px] md:h-[400px]">
         <AnimatePresence mode="wait">
           <motion.img
