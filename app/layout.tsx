@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Sidebar from "@/components/Sidebar";
+// import Sidebar from "@/components/Sidebar";
 import { Poppins } from 'next/font/google';
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,11 +31,11 @@ export default function RootLayout({
         className= 'antialiased font-poppins'
 
       >
-        <main className="bg-violet-200">
+        <main className="bg-white">
           <Navbar />
           <div className="flex flex-row w-full min-h-screen text-slate-900">
-          <Sidebar />
-            <div className="px-6 py-4 w-full">
+          {/* <Sidebar /> */}
+            <div className="px-6 py-4 w-full bg-gradient-to-b from-violet-00/50 to-pink-200/60">
               {children}
             </div>
           </div>

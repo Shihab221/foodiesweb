@@ -9,7 +9,7 @@ const FoodCard = () => {
     <div className='grid grid-cols-2 sm:flex flex-row py-2'>
         {foods.map((item,index)=> (
           <Link key={index} href={`/productDetails/${item.id}`}>
-            <div  className='px-2 py-2 flex flex-col bg-white mx-2 my-4 rounded-lg'>
+            <div  className='px-2 py-2 flex flex-col bg-gradient-to-r from-violet-300/50 to-pink-200/60 mx-2 my-4 rounded-lg shadow-md'>
                 <Image 
                     src={item.image}
                     alt='food_image'

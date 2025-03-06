@@ -1,14 +1,17 @@
+import Categories from "@/components/Categories";
 import FoodCard from "@/components/FoodCard";
 import Kitchens from "@/components/Kitchens";
 import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
-    <div className="bg-violet-200  w-full">
+    <div className="  w-full">
       <Slider />
-      <p className="text-2xl font-bold">Kitchens</p>
+      <p className="text-2xl font-bold mt-2">Categories</p>
+      <Categories />
+      <p className="text-2xl font-bold mt-2">Kitchens</p>
       <Kitchens />
-      <p  className="text-2xl font-bold">Best Food items</p>
+      <p  className="text-2xl font-bold mt-2">Best Food items</p>
       <div className="flex flex-row">
         <FoodCard />
       </div>
