@@ -6,7 +6,7 @@ import  shopProfileImage  from '@/public/images/shopProfile.jpg'
 const page = () => {
   return (
     <div>
-      <div className='w-full bg-white flex flex-row rounded-md'>
+      <div className='w-full  flex flex-col items-center  rounded-md'>
         <Image 
         src={shopProfileImage}
         alt='shop_image'
@@ -14,21 +14,21 @@ const page = () => {
         height={100}
         className='rounded-md m-2 w-[200px]'
         />
-        <div className='w-full flex flex-col m-2 justify-evenly'>
+        <div className='w-full flex flex-col m-2  items-center'>
         <p className='text-xl font-bold '>Shihab's Kitchen</p>
         <p className='py-2'>Rating: 4.5  &#9733;</p>
         <p>Location: Farmgate</p>
-        <div className='flex flex-col sm:flex-row justify-between '>
+        <div className='flex flex-col sm:flex-row justify-between  p-4 px-10 rounded-md m-2 w-full'>
             {shopProfile.map((shopProfile,index)=>(
-                <div className='flex flex-row bg-violet-200 w-full mr-2 rounded-md items-center' key={index}>
+                <div className='flex flex-col bg-gradient-to-b from-violet-300/50 to-pink-200/60 w-full mr-2 rounded-md items-center shadow-md px-2 cursor-pointer' key={index}>
                     <Image 
                     src={shopProfile.image}
                     alt='shopprofile_icon'
                     width={60}
                     height={50}
-                    className='p-2 m-2'
+                    className='p-2 m-2  w-[80px] h-[80px]'
                     />
-                    <p className='text-center px-2'>{shopProfile.text} </p>
+                    <p className='text-center px-2 pb-2'>{shopProfile.text} </p>
                 </div>
             ))}
         </div>

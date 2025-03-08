@@ -9,6 +9,9 @@ export const categoriesData = [
         { name: "Juice", image: "/images/food icon 8.png" , path: "/categorizedFood" },
         { name: "Kebab", image: "/images/food icon 6.png", path: "/orderPage" },
         { name: "meat", image: "/images/food icon 5.png", path: "/categorizedFood" },
+        { name: "Beer", image: "/images/food icon 9.png", path: "/categorizedFood" },
+        { name: "Fruits", image: "/images/food icon 11.png", path: "/categorizedFood" },
+        { name: "Cake", image: "/images/food icon 10.png", path: "/categorizedFood" },
       
   ];
 
