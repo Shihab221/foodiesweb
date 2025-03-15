@@ -6,7 +6,7 @@ import { FaCartShopping } from 'react-icons/fa6'
 
 const page = () => {
   return (
-    <div className=' grid grid-cols-2 '>
+    <div className='px-6 py-4 grid grid-cols-2 '>
         {categorizedFood.map((categorizedFoodItem,index)=>(
             <div key={index} className='bg-gradient-to-b from-violet-200/60 to-pink-200/60 rounded-xl shadow-md my-2 mx-2 flex flex-row justify-between'>
                 <Image 

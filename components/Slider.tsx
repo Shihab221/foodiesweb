@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const images = [
   "/images/banner1.jpg",
   "/images/banner2.jpg",
-  "/images/banner3.jpeg",
+  "/images/banner3.jpg",
   "/images/banner4.jpg",
 ];
 
@@ -27,7 +27,7 @@ const Slider = () => {
 
   return (
     <div className="relative w-full  mx-auto overflow-hidden rounded-lg">
-      <div className="relative w-full h-[300px] md:h-[400px]">
+      <div className="relative w-full h-[300px] md:h-[500px]">
         <AnimatePresence mode="wait">
           <motion.img
             key={images[current]}

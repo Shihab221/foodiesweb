@@ -35,7 +35,7 @@ export default function RootLayout({
           <Navbar />
           <div className="flex flex-row w-full min-h-screen text-slate-900">
           {/* <Sidebar /> */}
-            <div className="px-6 py-4 w-full bg-gradient-to-b from-violet-00/50 to-pink-200/60">
+            <div className=" w-full bg-gradient-to-b from-violet-00/50 to-pink-200/60">
               {children}
             </div>
           </div>

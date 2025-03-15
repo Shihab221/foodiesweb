@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { AiOutlineBell, AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
 import Login from "./Login";
+import { FaMapLocation } from "react-icons/fa6";
+import { FaArrowDown } from "react-icons/fa6";
 
 const Navbar = () => {
   // const [isOpen, setIsOpen] = useState(false); // Sidebar state
@@ -14,9 +16,9 @@ const Navbar = () => {
       <div className="fixed top-0 w-full bg-white text-slate-900 flex items-center justify-between px-5 py-3 md:relative z-50 max-w-full">
         {/* Hamburger & Logo */}
         <div className="flex items-center space-x-4">
-          {/* <button onClick={() => setIsOpen(true)} className=" md:hidden text-2xl">
-            <IoMenu />
-          </button> */}
+          
+          
+          
           <div className="flex-1 sm:hidden max-w-full">
             <input
               type="text"
@@ -31,8 +33,14 @@ const Navbar = () => {
           </Link>
         </div>
 
+        <div className="flex flex-row px-2 space-x-2 text-slate-700 items-center">
+          <FaMapLocation size={18} />
+            <p >Jhenaidah, Bangladesh</p>
+            <FaArrowDown size={18}/>
+          </div>
         {/* Search (Desktop Only) */}
-        <div className="hidden md:block flex-1 max-w-5xl">
+        <div className="hidden md:block flex-1 mx-2 max-w-5xl">
+        
           <input
             type="text"
             placeholder="Search . . ."
@@ -55,7 +63,7 @@ const Navbar = () => {
             Login
           </button>
           <p>|</p>
-          <Link href="/shopProfile">
+          <Link href="/userProfile">
             <div>
               Profile
             </div>

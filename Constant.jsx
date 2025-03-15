@@ -1,3 +1,5 @@
+import { image } from "framer-motion/client";
+
 export const categoriesData = [
     
       
@@ -43,6 +45,42 @@ export const kitchens = [
     foods:["burger", "chichen" ,"fish", "pizza", "pasta"]
 
   },
+]
+
+export const featuredSellers = [
+  {
+    name: "Shihab Ahemed",
+    image: "/images/pasta.jpg",
+  },
+  {
+    name: "Kawsar Khan",
+    image: "/images/burger.jpg",
+  },
+  {
+    name: "parthiv gorilla",
+    image: "/images/biriyani.jpg",
+  },
+  {
+    name: "Rafid Sharif",
+    image: "/images/pizza.jpg",
+  },
+  {
+    name: "Shihab Ahemed",
+    image: "/images/pasta.jpg",
+  },
+  {
+    name: "Kawsar Khan",
+    image: "/images/burger.jpg",
+  },
+  {
+    name: "parthiv gorilla",
+    image: "/images/biriyani.jpg",
+  },
+  {
+    name: "Rafid Sharif",
+    image: "/images/pizza.jpg",
+  },
+
 ]
 
 export const foods = [
@@ -197,6 +235,66 @@ export const shopProfile = [
     text: "Map",
   },
 ]
+
+
+export const userProfile = {
+  General: [
+    {
+      image: "/images/about.png",
+      text: "Acount",
+    },
+    {
+      image: "/images/review.png",
+      text: "Manage Profile",
+    },
+    {
+      image: "/images/payment.png",
+      text: "Wallet",
+    },
+    {
+      image: "/images/payment.png",
+      text: "Payment History",
+    },
+    
+  ],
+  System: [
+    {
+      text: "Notifications",
+      image:"/images/notification.png"
+    },
+    {
+      text: "Theme",
+      image: "/images/filter.png"
+    },
+    {
+      text: "Account Switch",
+      image: "/images/edit.png"
+    }
+  ],
+  vertical: [
+    {
+      image: "/images/about.png",
+      text: "Order",
+    },
+    {
+      image: "/images/review.png",
+      text: "To Ship",
+    },
+    {
+      image: "/images/payment.png",
+      text: "Received",
+    },
+    {
+      image: "/images/payment.png",
+      text: "Return",
+    },
+    {
+      image: "/images/payment.png",
+      text: "Review",
+    },
+  ]
+};
+
 export const cartedfood = [
   {
       name: "Penne pasta",
@@ -223,3 +321,4 @@ export const cartedfood = [
       delivery_time: '15-20',    
   },
 ]
+
