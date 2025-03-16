@@ -133,7 +133,7 @@ const page = () => {
                 className='w-8 h-8 rounded-full'
 
                 />
-                <p className='px-2'>is <span className='font-bold'>1.5</span> Km away from you</p>
+                <p className='px-2 text-lg'>is <span className='font-bold'>1.5</span> Km away from you</p>
             </div>
             <div className='flex flex-row  space-x-2 mx-4'>
                 <button className="bg-slate-900 px-4 py-2 rounded-sm text-slate-200 hover:bg-slate-800 cursor-pointer my-2 hover:text-slate-200 rounded-full">Order Now</button>

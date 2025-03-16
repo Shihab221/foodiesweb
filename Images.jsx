@@ -5,6 +5,7 @@ const images = {
     clock: "/images/clock.png",
     delivery: "/images/delivery.png",
     profile: "/images/shopProfile.jpg",
+    star:"/images/star.png"
   };
   
   export default images;

@@ -13,7 +13,7 @@ export const categoriesData = [
         { name: "meat", image: "/images/food icon 5.png", path: "/categorizedFood" },
         { name: "Beer", image: "/images/food icon 9.png", path: "/categorizedFood" },
         { name: "Fruits", image: "/images/food icon 11.png", path: "/categorizedFood" },
-        { name: "Cake", image: "/images/food icon 10.png", path: "/categorizedFood" },
+        // { name: "Cake", image: "/images/food icon 10.png", path: "/categorizedFood" },
       
   ];
 
@@ -57,7 +57,7 @@ export const featuredSellers = [
     image: "/images/burger.jpg",
   },
   {
-    name: "parthiv gorilla",
+    name: "Parthiv gorilla",
     image: "/images/biriyani.jpg",
   },
   {
@@ -73,7 +73,7 @@ export const featuredSellers = [
     image: "/images/burger.jpg",
   },
   {
-    name: "parthiv gorilla",
+    name: "Parthiv gorilla",
     image: "/images/biriyani.jpg",
   },
   {

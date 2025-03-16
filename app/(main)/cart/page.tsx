@@ -3,17 +3,17 @@ import Image from 'next/image'
 import { FaTruck } from 'react-icons/fa'
 const page = () => {
   return (
-    <div className=' min-h-screen w-full flex flex-col justify-between sm:flex-row'>
+    <div className=' min-h-screen w-full flex flex-col justify-between sm:flex-row px-4 mx-4'>
       <div className='flex flex-col w-full max-w-xl'>
       <p className='text-2xl text-slate-800 py-2'>Welcome to cart</p>
         {cartedfood.map((product,index)=>(
-          <div key={index} className='flex flex-row bg-gradient-to-b from-violet-300/50 to-pink-200/60 rounded-md my-2 px-2 items-center justify-between shadow-md '>
+          <div key={index} className='flex flex-row bg-gradient-to-b from-violet-300/50 to-pink-200/60 rounded-xl my-2 px-2 items-center justify-between shadow-sm '>
             <Image 
             src={product.image}
             alt='cart_product_image'
             width={100}
             height={100}
-            className='my-2 object-cover w-[100px] h-[80px] rounded-lg'
+            className='my-2 object-cover w-[100px] h-[80px] rounded-xl'
             />
             <div className='flex flex-col px-10 '>
             <p className='font-bold'>{product.name}</p>

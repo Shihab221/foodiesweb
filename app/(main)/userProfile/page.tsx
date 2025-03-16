@@ -94,6 +94,21 @@ const page = () => {
                     <p className='font-bold text-xl'>1</p>
                 </li>
               </div>
+
+              <div className='mt-4'>
+                <h4 className='text-xl mb-4'>Edit Your Personal Info</h4>
+                <p>First Name:</p>
+                <input 
+                placeholder='Shihab'
+                className='border rounded-sm px-2 py-2'
+                />
+
+                <p className='mt-2'>Last Name:</p>
+                <input 
+                placeholder='Ahemed'
+                className='border rounded-sm px-2 py-2'
+                />
+              </div>
             
       </div>
           
