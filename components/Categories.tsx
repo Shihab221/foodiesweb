@@ -42,7 +42,7 @@ const Categories = () => {
       >
         {categoriesData.map((item, index) => (
           <Link href="/categorizedFood" key={index}>
-            <div className="flex-shrink-0 w-32 p-2 border border-violet-200/60 rounded-md cursor-pointer bg-gradient-to-b from-violet-300/50 to-pink-200/60 shadow-md hover:shadow-lg transition-transform">
+            <div className="flex flex-col items-center w-32 p-2 border border-violet-200/60 rounded-md cursor-pointer bg-gradient-to-b from-violet-300/50 to-pink-200/60 shadow-md hover:shadow-lg transition-transform ">
               <Image
                 src={item.image}
                 alt="category_icon"
