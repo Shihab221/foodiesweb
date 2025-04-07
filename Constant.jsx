@@ -13,7 +13,7 @@ export const categoriesData = [
         { name: "meat", image: "/images/food icon 5.png", path: "/categorizedFood" },
         { name: "Beer", image: "/images/food icon 9.png", path: "/categorizedFood" },
         { name: "Fruits", image: "/images/food icon 11.png", path: "/categorizedFood" },
-        // { name: "Cake", image: "/images/food icon 10.png", path: "/categorizedFood" },
+        { name: "Cake", image: "/images/food icon 10.png", path: "/categorizedFood" },
       
   ];
 
@@ -39,6 +39,15 @@ export const kitchens = [
   {
     name: "Kawsar kitchen",
     image: "/images/biriyani.jpg",
+    delivery: "Free Delivery",
+    time:"10-12min",
+    rating: 4.5 ,
+    foods:["burger", "chichen" ,"fish", "pizza", "pasta"]
+
+  },
+  {
+    name: "Parthib kitchen",
+    image: "/images/burger.jpg",
     delivery: "Free Delivery",
     time:"10-12min",
     rating: 4.5 ,
@@ -119,6 +128,33 @@ export const foods = [
       rating: '4.5',
       review: '30',
       delivery_time: '10-12',    
+    },
+    {
+      id: 5,  
+      name: "Pizza beef",
+        image: '/images/pizza.jpg',
+        price: '320',
+        rating: '4.3',
+        review: '20',
+        delivery_time: '15-20',    
+    },
+    {
+      id: 6,  
+      name: "Crispy Burger",
+        image: '/images/burger.jpg',
+        price: '120',
+        rating: 4.6,
+        review: '13',
+        delivery_time: '14-18',    
+    },
+    {
+      id: 7,  
+      name: "Bamboo pasta",
+        image: '/images/pasta.jpg',
+        price: '200',
+        rating: '4.5',
+        review: '30',
+        delivery_time: '15-20',    
     },
 ]
 

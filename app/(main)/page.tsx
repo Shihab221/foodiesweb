@@ -11,10 +11,8 @@ export default function Home() {
       <Slider />
       <Kitchens />
       <FeaturedSeller />
-      <div className="flex flex-col mx-2">
-        <p className="text-2xl font-bold mx-2 mt-2">Best Foods</p>
-        <FoodCard />
-      </div>
+      <FoodCard />
+      
     </div>
   );
 }

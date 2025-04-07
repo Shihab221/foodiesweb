@@ -17,7 +17,7 @@ const Categories = () => {
   };
 
   return (
-    <div className="relative mx-4 mb-4">
+    <div className="relative mx-4 mb-4 ">
       <h2 className="text-2xl font-semibold mb-2 flex items-center justify-start">
         Categories
         <div className="flex space-x-2">
@@ -49,6 +49,7 @@ const Categories = () => {
                 width={100}
                 height={100}
                 className="rounded-md object-cover"
+                
               />
               <p className="text-center mt-2">{item.name}</p>
             </div>
