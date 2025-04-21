@@ -89,6 +89,10 @@ export const featuredSellers = [
     name: "Rafid Sharif",
     image: "/images/pizza.jpg",
   },
+  {
+    name: "Kawsar Khan",
+    image: "/images/burger.jpg",
+  },
 
 ]
 

@@ -18,7 +18,7 @@ const Kitchens = () => {
 
   return (
     <div className='relative flex flex-col sm:flex-col mx-4 '>
-      <p className='text-2xl font-bold mt-2 flex'>Kitchens
+      <div className='text-2xl font-bold mt-2 flex'>Kitchens
       <div className="flex space-x-2">
           <button
             onClick={() => scroll('left')}
@@ -33,7 +33,7 @@ const Kitchens = () => {
             <ChevronRight size={20} />
           </button>
         </div>
-      </p>
+      </div>
       
       <div className='flex flex-row space-x-4 overflow-x-auto scrollbar-hide scroll-smooth ' ref={scrollRef}>
         {kitchens.map((kitchen,index)=>(
